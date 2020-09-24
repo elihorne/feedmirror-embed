@@ -1,0 +1,15 @@
+{
+  "name": "@feedmirror/embed",
+  "version": "0.0.1",
+  "description": "Embed feeds with Feedmirror",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eli Horne <eli@feedmirror.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-recommended": "^4.1.0"
+  }
+}
