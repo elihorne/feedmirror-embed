@@ -5,7 +5,7 @@
 
 module.exports = function feedmirror(fmSettings) {
   var request = new XMLHttpRequest();
-  alert('test from github')
+  
 
   // request the remote feed
   request.open("GET", fmSettings.feedURL, true);
