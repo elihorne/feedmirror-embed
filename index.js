@@ -35,5 +35,5 @@ module.exports = function feedmirror(fmSettings) {
     };
     js.src = fmDataURL;
     fmjs.parentNode.insertBefore(js, fmjs);
-  })(document, "script", "feedmirror-jsembed");
+  })(document, "script", "feedmirror-jsembed-" + fmSettings.fmId);
 };
